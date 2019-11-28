@@ -17,11 +17,11 @@
       <input type="text" name="LName" /> <br /><br />
 
       Age:<br />
-      <input type="number" name="age" value="18" /> <br /><br />
+      <input type="number" name="age"  /> <br /><br />
 
       Sex:
-      <input type="radio" name="sex" value="male" />Male
-      <input type="radio" name="sex" value="female" />Female
+      <input type="radio" name="sex" value="male" />Male &nbsp&nbsp&nbsp
+      <input type="radio" name="sex" value="female" />Female &nbsp&nbsp&nbsp
       <input type="radio" name="sex" value="other" />other<br /><br />
 
 
@@ -53,11 +53,46 @@
 
       <br /><br />
 
+    </fieldset>
+
+    <fieldset>
+      <legend> Subscription Details: </legend><br />
+      How do you want us to send you the newsletter <br />
+      <input type="checkbox" name="subscription_details" value="mail"/>You can mail me  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <input type="checkbox" name="subcription_details" value="post" />Post it to me<br />
+
+      <br />
+
+      Which subscription will you take:<br />
+
+      <input type="radio" name="subsciption_type" value="weekly" />Weekly(Rs.30 only)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <input type="radio" name="subsciption_type" value="monthly" />Monthly(Rs.99 only)       <br />
+      <br />
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Payment</legend><br />
+      Select payment method:
+      <input type="radio" name="payment_gateway" value="visa" /><img src="images/visa.png" alt="visa" width="80px" height="50px" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <input type="radio" name="payment_gateway" value="mastercard"  /><img src="images/mastercard.png" alt="mastercard" width="90px" height="50px" />
 
 
-
-
-
+      <br />
+      <br />
+      Enter card details:<br />
+      <br />
+      Card number:
+      <input type="text" name="card_num" size=16 /> <br />
+      <br />
+      Expiry date:
+      <input type="date" name="exp_date"  /><br />
+      <br />
+      CVV:
+      <input type="password" name="CVV" size=3 /><br />
+      <br />
+      Name On Card:
+      <input type="text" name="name_on_card" maxlength=16 /><br />
 
     </fieldset>
 
