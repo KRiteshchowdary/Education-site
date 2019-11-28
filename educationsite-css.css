@@ -1,0 +1,12 @@
+h1,h2,h3{
+  text-align:center ;color:orange;background-color:dodgerblue;border:2px;
+
+}
+
+.information{
+  background-color: pink;color:green
+}
+
+#home{
+  background-color: green;
+}
